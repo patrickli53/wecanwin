@@ -1,0 +1,38 @@
+.landingpage {
+    height: 100vh;
+    background-color: skyblue;
+}
+
+.whatpage {
+    height: 100vh;
+    background-color: teal;
+}
+
+.eventslanding {
+    height: 100vh;
+    background-color: aqua;
+}
+.wholand {
+    height: 100vh;
+    background-color: blue;
+}
+
+.emaillist {
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.getinvolved {
+    height: 100vh;
+    background-color: navy;
+}
+
+.contactlanding {
+    height: 100vh;
+    background-color:steelblue;
+}
+
+.footer {
+    height: 100vh;
+    background-color: powderblue;
+}
