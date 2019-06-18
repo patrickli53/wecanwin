@@ -2,17 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-<<<<<<< HEAD
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from 'react-router-dom'; 
-import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(
-        //<BrowserRouter>
-            <App />
-       // </BrowserRouter>
-        , document.getElementById('root'));
-=======
 import Whopage from './components/whopage';
 import Services from './components/Services';
 import Events from './components/Events';
@@ -34,7 +23,6 @@ ReactDOM.render(<Router>
                    
                 </Router>,
                 document.getElementById('root'));
->>>>>>> fixed routing
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
