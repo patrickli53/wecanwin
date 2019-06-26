@@ -40,9 +40,9 @@ class Navigation extends Component {
 
   render() {
     return (
-      <div>
-        <Navbar color='light' light expand="md">
-          <NavbarBrand href="/"><img src='http://wecanwin.ca/theme/site/img/logo7.png' alt='logo' width='100' height='50'></img></NavbarBrand>
+      <div className='navigation'>
+        <Navbar scrolling light expand="md" fixed ='top'>
+          <NavbarBrand><Redir to='/'><img src='http://wecanwin.ca/theme/site/img/logo7.png' alt='logo' width='125' height='62.5'></img></Redir></NavbarBrand>
           <Nav className="ml-auto" navbar>
             <UncontrolledDropdown nav inNavbar className='navdrop'>
               <DropdownToggle nav caret>
@@ -51,7 +51,7 @@ class Navigation extends Component {
                   to="what"
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-70}
                   duration={500}>
                   What We Do
                 </Link>
@@ -106,15 +106,10 @@ class Navigation extends Component {
             </UncontrolledDropdown>
             <NavItem>
               <NavLink>
-                <Link
-                  activeClass="active"
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}>
+                <Redir
+                  to="/contactus">
                   Contact Us
-                </Link>
+                </Redir>
               </NavLink>
             </NavItem>
             <NavItem>

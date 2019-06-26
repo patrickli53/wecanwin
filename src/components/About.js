@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Navigation from './Navigation';
+import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight } from 'react-animations';
 
@@ -9,19 +8,16 @@ const FadeDiv = styled.div`
   animation: 1s ${fadeAnimation};
 `;
 
-class Contact extends Component{
-    render(){
-        return(
-            <div className='contact'>
-                <Navigation />
+const About = () => {
+    return(
+        <div className='about' id='about'>
                 <FadeDiv>
                     <h1 className=' f1 ttu pl6 pt5'>
-                        <u>Contact Us</u>
+                        <u>About Us</u>
                     </h1>
                 </FadeDiv>
-            </div>
-        )
-    }
+         </div>
+    )
 }
 
-export default Contact;
+export default About;

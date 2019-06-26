@@ -1,38 +1,121 @@
+.navigation {
+
+}
+    
+u{
+    text-decoration: none;
+    border-bottom: 10px solid #C1DBFE;
+
+}
+
 .landingpage {
     height: 100vh;
-    background-color: skyblue;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+
+}
+.bg {
+    background-image: url("./components/landingimg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .whatpage {
     height: 100vh;
-    background-color: teal;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
 }
 
 .eventslanding {
     height: 100vh;
-    background-color: aqua;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+
+
 }
+
+
 .wholand {
     height: 100vh;
-    background-color: blue;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
 }
 
 .emaillist {
     height: 100vh;
-    background-color: aquamarine;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
 }
 
 .getinvolved {
     height: 100vh;
-    background-color: navy;
-}
-
-.contactlanding {
-    height: 100vh;
-    background-color:steelblue;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
 }
 
 .footer {
+    height: 20vh;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+} 
+
+.about {
     height: 100vh;
-    background-color: powderblue;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+} 
+
+.supporters {
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+}
+
+.team {
+    height: 100vh;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+} 
+
+.services{
+    height: 100vh;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+}
+
+.lessons{
+    height: 100vh;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+}
+
+.events{
+    height: 100vh;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+}
+
+.eventdeck {
+    background-color: aliceblue;
+}
+
+
+
+.contact {
+    height: 100vh;
+    background: rgb(148,142,247);
+    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+}
+
+.butt{
+    transition: background-color .15s linear;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border-radius: 4px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    color: #fff;
 }
