@@ -41,34 +41,36 @@ class Navigation extends Component {
   render() {
     return (
       <div className='navigation'>
-        <Navbar scrolling light expand="md" fixed ='top'>
-          <NavbarBrand><Redir to='/'><img src='http://wecanwin.ca/theme/site/img/logo7.png' alt='logo' width='125' height='62.5'></img></Redir></NavbarBrand>
+        <Navbar scrolling color='light' expand="md" fixed ='top'>
+          <NavbarBrand><Redir to='/'><img src='http://wecanwin.ca/theme/site/img/logo7.png' alt='logo' width='110' height='55'></img></Redir></NavbarBrand>
           <Nav className="ml-auto" navbar>
             <UncontrolledDropdown nav inNavbar className='navdrop'>
-              <DropdownToggle nav caret>
+              <DropdownToggle nav caret >
                 <Link
                   activeClass="active"
                   to="what"
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration={500}>
+                  duration={500}
+                  id='whatdrop'>
                   What We Do
+                  
                 </Link>
               </DropdownToggle>
               <DropdownMenu className='navmenu' >
-                <DropdownItem>
-                  <Redir to='/services'>
+                <DropdownItem >
+                  <Redir to='/services' id='serviceItem'>
                   Services
                   </Redir>
                 </DropdownItem>
-                <DropdownItem>
-                  <Redir to='/events'>
+                <DropdownItem >
+                  <Redir to='/events' id='eventItem'>
                     Events
                   </Redir>
                 </DropdownItem>
                 <DropdownItem>
-                  <Redir to='/lessons'>
+                  <Redir to='/lessons'  id='lessonItem'>
                     Lessons
                   </Redir>
                 </DropdownItem>
@@ -82,32 +84,33 @@ class Navigation extends Component {
                   spy={true}
                   smooth={true}
                   offset={0}
-                  duration={500}>
+                  duration={500}
+                  id='whodrop'>
                   Who We Are
                 </Link>
               </DropdownToggle>
               <DropdownMenu className='navmenu' >
-                <DropdownItem>
-                  <Redir to='/whopage'>
+                <DropdownItem >
+                  <Redir to='/whopage' id='aboutItem'>
                     About Us
                   </Redir>
                 </DropdownItem>
-                <DropdownItem>
-                  <Redir to='/whopage'>
+                <DropdownItem >
+                  <Redir to='/whopage' id='teamItem'>
                     Our Team
                   </Redir>
                 </DropdownItem>
-                <DropdownItem>
-                  <Redir to='/whopage'>
+                <DropdownItem >
+                  <Redir to='/whopage' id='supportItem'>
                     Our Supporters
                   </Redir>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink>
+              <NavLink >
                 <Redir
-                  to="/contactus">
+                  to="/contactus" id='contactItem'>
                   Contact Us
                 </Redir>
               </NavLink>

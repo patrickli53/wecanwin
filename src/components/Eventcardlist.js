@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Eventcardlist = ({Eventlist}) => {
     return(
-        <div className='eventdeck'>
+        <div className='eventdeck br3'>
             <Container fluid style={{ paddingLeft: 0, paddingRight: 0}}>
                 <Row style={{ marginLeft: 0, marginRight:0}}>
                     {Eventlist.map((user,i) => {

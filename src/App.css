@@ -10,8 +10,8 @@ u{
 
 .landingpage {
     height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+  
+    
 
 }
 .bg {
@@ -23,77 +23,85 @@ u{
 }
 
 .whatpage {
-    height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+   
+
+}
+
+.whatContainer{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.assistContainer{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.assisttext{
+    padding-left: 35%;
+}
+.icon {
+    width: 9.3%;
+    height: auto;
 }
 
 .eventslanding {
-    height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
-
-
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
 .wholand {
     height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+   
 }
 
 .emaillist {
     height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+   
 }
 
 .getinvolved {
     height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+    
+
 }
 
 .footer {
     height: 20vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+    
 } 
 
 .about {
     height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+   
 } 
 
 .supporters {
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+   
 }
 
 .team {
     height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+   
 } 
 
 .services{
     height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+   
 }
 
 .lessons{
     height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+   
 }
 
 .events{
     height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+   
+
 }
 
 .eventdeck {
@@ -104,8 +112,7 @@ u{
 
 .contact {
     height: 100vh;
-    background: rgb(148,142,247);
-    background: linear-gradient(90deg, rgba(148,142,247,1) 0%, rgba(131,131,203,1) 20%, rgba(148,195,230,1) 100%);
+   
 }
 
 .butt{
