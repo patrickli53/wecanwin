@@ -4,7 +4,7 @@ import { Card, CardImg, CardText, CardBody,
 
 const Eventcard = ({name,date,image,info}) => {
   return (
-    <div className='pa2'>
+    <div className='pa2 eventCard'>
       <Card>
         <CardImg top width='100%' src={image} alt="event image" />
         <CardBody>

@@ -12,8 +12,8 @@ const Whatpage = () => {
                 </h1>
                
                 <div className="pl6 pt5 whatContainer">
-                <img
-                        src={require('./create.svg')}
+                    <img
+                        src={require('../img/create.svg')}
                         className="icon bw2 br-100 ba b--light-blue h4 w4 grow shadow bg-white" alt="create" />
                     <div className='textContainer'>
                         <h4 className='title pl3'> <u>WE CREATE</u>  </h4>
@@ -25,7 +25,7 @@ const Whatpage = () => {
                 </div>
                 <div className="pt2 assistContainer">
                     <img
-                        src={require('./cross.svg')}
+                        src={require('../img/cross.svg')}
                         className="icon bw2 br-100 ba b--light-blue h4 w4 dib grow shadow bg-white mr6" alt="create" />
                     <div>
                     <h4 className='tr pr3'> <u>WE ASSIST</u>  </h4>
@@ -37,7 +37,7 @@ const Whatpage = () => {
 
                 <div className="pl6 pt2 pb5 whatContainer">
                     <img
-                        src={require('./briefcase.svg')}
+                        src={require('../img/briefcase.svg')}
                         className="icon bw2 br-100 ba b--light-blue h4 w4 dib grow shadow bg-white" alt="create" />    
                     <div className='textContainer'>
                         <h4 className='title pl3'> <u>WE SUPPORT</u>  </h4>

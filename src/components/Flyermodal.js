@@ -27,7 +27,7 @@ class Flyermodal extends React.Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Flyer</ModalHeader>
           <ModalBody>
-            <img src={require('./flyer.png')} />
+            <img src={require('../img/flyer.png')} />
           </ModalBody>
           <ModalFooter>
             <Button color="secondary" onClick={this.toggle}>Close</Button>

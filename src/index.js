@@ -8,6 +8,7 @@ import Events from './components/Events';
 import Lessons from './components/Lessons';
 import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 import 'animate.css/animate.min.css';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';

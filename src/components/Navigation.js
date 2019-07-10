@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import {
   Button,
+  Collapse,
   Navbar,
   NavbarBrand,
+  NavbarToggler,
   Nav,
   NavItem,
   NavLink,
@@ -40,11 +42,13 @@ class Navigation extends Component {
 
   render() {
     return (
-      <div className='navigation'>
-        <Navbar scrolling color='light' expand="md" fixed ='top'>
-          <NavbarBrand><Redir to='/'><img src='http://wecanwin.ca/theme/site/img/logo7.png' alt='logo' width='110' height='55'></img></Redir></NavbarBrand>
+      <div>
+      <Navbar scrolling color='light' expand="md" fixed ='top'>
+        <NavbarBrand><Redir to='/'><img src='http://wecanwin.ca/theme/site/img/logo7.png' alt='logo' width='110' height='55'></img></Redir></NavbarBrand>
+        <NavbarToggler onClick={this.toggle} />
+        <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <UncontrolledDropdown nav inNavbar className='navdrop'>
+          <UncontrolledDropdown nav inNavbar className='navdrop'>
               <DropdownToggle nav caret >
                 <Link
                   activeClass="active"
@@ -83,7 +87,7 @@ class Navigation extends Component {
                   to="who"
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-70}
                   duration={500}
                   id='whodrop'>
                   Who We Are
@@ -123,8 +127,9 @@ class Navigation extends Component {
               </div>
             </NavItem>
           </Nav>
-        </Navbar>
-      </div>
+        </Collapse>
+      </Navbar>
+    </div>
     );
   }
 }
