@@ -9,7 +9,7 @@ const Eventcardlist = ({Eventlist}) => {
                 <Row style={{ marginLeft: 0, marginRight:0}}>
                     {Eventlist.map((user,i) => {
                         return (
-                                <Col xs='4' sm='3' md='2' style={{ paddingLeft: 0, paddingRight: 0}}>
+                                <Col xs='12' sm='9' md='6' lg='3' style={{ paddingLeft: 0, paddingRight: 0}}>
                                     <Eventcard 
                                     key={i} 
                                     name={Eventlist[i].name} 

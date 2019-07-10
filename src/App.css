@@ -104,6 +104,10 @@ u{
 
 }
 
+.eventPageTitle{
+    padding-top: 4%;
+}
+
 .eventdeck {
     background-color: aliceblue;
 }

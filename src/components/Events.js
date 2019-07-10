@@ -15,7 +15,7 @@ class Events extends Component{
             <div className='events'>
                 <Navigation/>
                 <FadeDiv>
-                    <h1 className=' f1 ttu pl6 pt5'>
+                    <h1 className=' f1 ttu pl6 eventPageTitle'>
                         <u>Events and Calendar</u>
                     </h1>
                 </FadeDiv>
