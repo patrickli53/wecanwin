@@ -110,13 +110,14 @@ u{
 
 .eventPageTitle{
     padding-top: 8%;
+    padding-left: 6%
 }
 
 .eventCalendar{
-    height:60vh;
+    height:70vh;
     width:90%;
-    padding-top: 2%;
-    padding-left: 6%;
+    padding-top: 4%;
+    padding-left: 9%;
 }
 
 .eventdeck {

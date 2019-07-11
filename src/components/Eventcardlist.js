@@ -12,8 +12,8 @@ const Eventcardlist = ({Eventlist}) => {
                                 <Col xs='12' sm='9' md='6' lg='3' style={{ paddingLeft: 0, paddingRight: 0}}>
                                     <Eventcard 
                                     key={i} 
-                                    name={Eventlist[i].name} 
-                                    date={Eventlist[i].date} 
+                                    title={Eventlist[i].title} 
+                                    start={Eventlist[i].start} 
                                     image={Eventlist[i].image}
                                     info={Eventlist[i].info}
                                     />   

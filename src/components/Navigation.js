@@ -43,8 +43,8 @@ class Navigation extends Component {
   render() {
     return (
       <div>
-      <Navbar scrolling color='light' expand="md" fixed ='top'>
-        <NavbarBrand><Redir to='/'><img src='http://wecanwin.ca/theme/site/img/logo7.png' alt='logo' width='110' height='55'></img></Redir></NavbarBrand>
+      <Navbar scrolling color="light" light expand="md" fixed='top'>
+        <NavbarBrand><Redir to='/'><img src={require('../img/logo.png')} width={100}/></Redir></NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>

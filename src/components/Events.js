@@ -4,6 +4,7 @@ import Eventcalendar from './Eventcalendar';
 
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight } from 'react-animations';
+import { Col, Container, Row } from 'reactstrap';
 
 const fadeAnimation = keyframes`${ fadeInRight}`;
 
@@ -38,11 +39,20 @@ class Events extends Component{
             <div className='events'>
                 <Navigation/>
                 <FadeDiv>
-                    <h1 className=' f1 ttu pl6 eventPageTitle'>
-                        <u>Events and Calendar</u>
-                    </h1>
-                   
-                    <Eventcalendar eventsList={this.props.eventsList}/>
+                    <Container fluid style={{ paddingLeft: 0, paddingRight: 0}}>
+                        <Row>
+                            <Col>
+                                <h1 className=' f1 ttu pl6 eventPageTitle'>
+                                    <u>Events and Calendar</u>
+                                </h1>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md='12' lg='8' style={{ paddingLeft: 0, paddingRight: 0}}>
+                                <Eventcalendar eventsList={this.state.eventsList}/>
+                            </Col>
+                        </Row>
+                    </Container>
                 </FadeDiv>
             </div>
         )
