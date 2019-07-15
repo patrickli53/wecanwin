@@ -5,20 +5,14 @@ import moment from 'moment';
 const localizer = momentLocalizer(moment)
 
 class Eventcalendar extends Component {
-    constructor(){
-        super();
-        
-    }
+   
 
     render(){
-        const listEvents = this.props.eventsList.map(item => {
-            return item.date;    
-        });
         return(
             <div className='eventCalendar'>
                 <Calendar
                     localizer={localizer}
-                    events={listEvents}
+                    events={this.props.eventsList}
                     startAccessor="start"
                     endAccessor="end"
                 />

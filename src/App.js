@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Eventlist } from './components/Eventlist';
 import Navigation from './components/Navigation';
 import Landingpage from './components/Landingpage';
 import Whatpage from './components/Whatpage';
@@ -20,17 +21,25 @@ class App extends Component {
     }
 
     componentDidMount(){
-        fetch('./events.json')
-            .then(response => response.json())
-            .then(result => {
-                const events = result.map(item => {
-                    return item;
-                })
 
-                this.setState({
-                    eventList : events
-                });
-            });
+        const events = Eventlist.map(item => {
+            return item;
+        })
+
+        this.setState({
+            eventList : events
+        });
+        // fetch('./events.json')
+        //     .then(response => response.json())
+        //     .then(result => {
+        //         const events = result.map(item => {
+        //             return item;
+        //         })
+
+        //         this.setState({
+        //             eventList : events
+        //         });
+        //     });
     }
     render(){
         return (

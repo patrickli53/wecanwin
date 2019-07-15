@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation';
 import Eventcalendar from './Eventcalendar';
+import { Eventlist } from './Eventlist';
 
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight } from 'react-animations';
 import { Col, Container, Row } from 'reactstrap';
+import Upcomingeventslist from './Upcomingeventslist';
 
 const fadeAnimation = keyframes`${ fadeInRight}`;
 
@@ -21,17 +23,13 @@ class Events extends Component{
     }
 
     componentDidMount(){
-        fetch('./events.json')
-            .then(response => response.json())
-            .then(result => {
-                const events = result.map(item => {
-                    return item;
-                })
+        const events = Eventlist.map(item => {
+            return item;
+        })
 
-                this.setState({
-                    eventsList : events
-                });
-            });
+        this.setState({
+            eventsList : events
+        });
     }
 
     render(){
@@ -50,6 +48,9 @@ class Events extends Component{
                         <Row>
                             <Col md='12' lg='8' style={{ paddingLeft: 0, paddingRight: 0}}>
                                 <Eventcalendar eventsList={this.state.eventsList}/>
+                            </Col>
+                            <Col md='12' lg='4' style={{ paddingLeft: 0, paddingRight: 0}}>
+                                <Upcomingeventslist eventsList={this.state.eventsList}/>
                             </Col>
                         </Row>
                     </Container>
