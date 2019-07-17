@@ -117,10 +117,27 @@ u{
     padding-left: 9%;
 }
 
+.eventPadding{
+    padding-bottom: 11%;
+}
+
 .eventdeck {
     background-color: aliceblue;
 }
 
+.upcomingEvents{
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-width: 1px;
+    margin-top: 8%;
+    margin-right: 9%;
+    margin-left: -12%;
+}
+
+.upcomingEvents u{
+    border-bottom: 4px solid #C1DBFE;
+
+}
 
 
 .contact {
@@ -138,4 +155,18 @@ u{
     font-weight: 500;
     display: inline-block;
     color: #fff;
+}
+
+
+@media only screen and (max-width: 992px){
+    .upcomingEvents{
+        margin-left: 8%;
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 1086px){
+    .rbc-toolbar button{
+        padding: 0.2rem 0.5rem !important; 
+    }
 }

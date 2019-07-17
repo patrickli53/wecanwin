@@ -46,9 +46,10 @@ class Events extends Component{
                             </Col>
                         </Row>
                         <Row>
-                            <Col md='12' lg='8' style={{ paddingLeft: 0, paddingRight: 0}}>
+                            <Col className='eventPadding' md='12' lg='8' style={{ paddingLeft: 0, paddingRight: 0}}>
                                 <Eventcalendar eventsList={this.state.eventsList}/>
                             </Col>
+
                             <Col md='12' lg='4' style={{ paddingLeft: 0, paddingRight: 0}}>
                                 <Upcomingeventslist eventsList={this.state.eventsList}/>
                             </Col>
