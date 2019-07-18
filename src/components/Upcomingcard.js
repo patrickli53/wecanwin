@@ -1,11 +1,44 @@
 import React from 'react';
+import Moment from 'react-moment';
 
-const Upcomingcard = ({title,info,logo}) =>{
+const Upcomingcard = ({title,start,end,info}) =>{
     return (
-        <div className ='bg-lightest-blue tc dib h6 w5 br3 pa3 ma2 grow bw2 shadow5'>
-            <img className='' src={logo} alt='logo' width={200} height={200}/>
-            <h3 className='f3 mb2'>{name}</h3>
-            <p className='f5 f24 gray mt0'>{info}</p>
+        <div className='upcomingCard'>
+            <div className='upcomingContainer' id='firstUpcoming'>
+                <h4>
+                    <Moment
+                    date={start}
+                    parse="YYYY-MM-dd hh:mm"
+                    format="DD"
+                    />
+                </h4>
+                <h5>{title}</h5>
+            </div>
+            <div className='upcomingContainer'>
+                <h6>
+                    <Moment
+                        date={start}
+                        parse="YYYY-MM-dd hh:mm"
+                        format="MMM"
+                    /> 
+                </h6>
+                
+                <h7>
+                    <Moment
+                        date={start}
+                        parse="YYYY-MM-dd hh:mm"
+                        format="h:mma"
+                    /> -
+                     <Moment
+                        date={end}
+                        parse="YYYY-MM-dd hh:mm"
+                        format="h:mma"
+                    /> 
+                </h7>
+            </div>
+            <p>
+                {info}
+            </p>
         </div>
     )
 }

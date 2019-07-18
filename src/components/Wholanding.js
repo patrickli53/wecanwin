@@ -10,7 +10,7 @@ const Wholanding = () => {
                     <u>Who We Are</u>
                 </h1>
             
-                <div className='pt7 pl6 mt7'>
+                <div>
                     <Butt message={'learn about us!'} address={'/whopage'}/>
                 </div>
             </ScrollAnimation>

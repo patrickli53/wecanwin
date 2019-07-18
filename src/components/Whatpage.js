@@ -18,7 +18,11 @@ const Whatpage = () => {
                     <div className='textContainer'>
                         <h4 className='title pl3'> <u>WE CREATE</u>  </h4>
                         <p className='desc pl3 pr7 mr7 pt3 '>
-                    Opportunities for youth, newcomers, Women and the special needs population. Identify the potential of Individuals who are seriously committed to serve the community and their individual growth. Guide Immigrants, women, youth, people with special needs to Integrate, improve, economic social well being within a safe environment.
+                            <ul>
+                                <li> Opportunities for youth, newcomers, women, seniors, and minority groups</li>
+                                <li>Identify the potential of individuals who are seriously commited to serve their community and their individual growth</li>
+                                <li> Integrate and improve economic social well-being in a safe environment</li>
+                            </ul>
                         </p>
                     </div>
                     
@@ -26,10 +30,17 @@ const Whatpage = () => {
                 <div className="pt2 assistContainer">
                     <img
                         src={require('../img/cross.svg')}
-                        className="icon bw2 br-100 ba b--light-blue h4 w4 dib grow shadow bg-white mr6" alt="create" />
+                        className="icon bw2 br-100 ba b--light-blue h4 w4 dib grow shadow bg-white mr6 ml3" alt="create" 
+                    />
                     <div>
                     <h4 className='tr pr3'> <u>WE ASSIST</u>  </h4>
-                    <p className='pl7 ml7 pt3 assisttext'> Newcomers adapt to Canadian society, to be engaged, contribute to the communities, provide and maintain positive emotional good health for the individuals across all of Ontario and Canada.</p>
+                        <p className=' pt3 assisttext'> 
+                            <ul>
+                                <li> Individuals in adapting to Canadian society</li>
+                                <li> Contributing and engaging in the communities</li>
+                                <li> Maintaining positive emotional good health for individuals</li>
+                            </ul>
+                        </p>
                     </div>
                     
                    
@@ -41,9 +52,12 @@ const Whatpage = () => {
                         className="icon bw2 br-100 ba b--light-blue h4 w4 dib grow shadow bg-white" alt="create" />    
                     <div className='textContainer'>
                         <h4 className='title pl3'> <u>WE SUPPORT</u>  </h4>
-                        <p className='desc pl3 pr7 mr7 pt3 '>
-                        Students to choose the careers of their choice and match up with colleges and universities. We provide details and research material done by our teams. Students choose the best courses as per their choice and that matches the passion, skills, knowledge and goals.
-                        </p>
+                            <p className='desc pl3 pr7 mr7 pt3 '>
+                                <ul>
+                                    <li> Students to choose the careers of their choice and match them with colleges and universities</li>
+                                    <li> Individuals that follow a path that matches their passion, skills, knowledge and goals</li>
+                                </ul>
+                            </p>
                     </div>
                    
                 </div> 

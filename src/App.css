@@ -35,9 +35,6 @@ u{
     flex-direction: row-reverse;
 }
 
-.assisttext{
-    padding-left: 35%;
-}
 
 .icon {
     width: 9.3%;
@@ -55,19 +52,35 @@ u{
 }
 
 .wholand {
-    height: 100vh;
+    height: 50vh;
    
 }
 
 .emaillist {
-    height: 100vh;
+    height: 20vh;
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    
 }
 
-.getinvolved {
-    height: 100vh;
-    
+.getinvolved h1{
+    padding-left: 13%;
+}
 
+.getinvolved h2{
+    color: red;
+    padding-left: 13%;
+    padding-top: 25px;
+}
+
+.getinvolved p{
+    padding-left:13%;
+    padding-right: 13%;
+}
+
+.getinvolved .btn{
+    margin-left:13%;
 }
 
 .footer {
@@ -139,6 +152,39 @@ u{
 
 }
 
+.upcomingCard{
+    border-top-style: solid;
+    border-top-color: lightgrey;
+    border-top-width: 1px;
+}
+
+.upcomingCard h6{
+    color:grey;
+}
+
+.upcomingCard h5{
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 0%;
+    margin-right: 0%
+}
+
+.upcomingCard h7{
+    padding-left: 5%;
+}
+
+.upcomingCard p{
+    padding-left: 10%;
+}
+.upcomingContainer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+}
+
+#firstUpcoming{
+    padding-top: 1%;
+}
 
 .contact {
     height: 100vh;
