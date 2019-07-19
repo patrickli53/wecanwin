@@ -3,6 +3,7 @@ import Navigation from './Navigation';
 import Eventcalendar from './Eventcalendar';
 import { Eventlist } from './Eventlist';
 
+import './Events.css';
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight } from 'react-animations';
 import { Col, Container, Row } from 'reactstrap';

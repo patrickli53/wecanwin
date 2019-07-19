@@ -36,8 +36,11 @@ const Upcomingcard = ({title,start,end,info}) =>{
                     /> 
                 </h7>
             </div>
-            <p>
+            <p id='location'>
                 {info}
+            </p>
+            <p id='description'>
+
             </p>
         </div>
     )

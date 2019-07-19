@@ -1,4 +1,5 @@
 
+
 u{
     text-decoration: none;
     border-bottom: 10px solid #C1DBFE;
@@ -142,6 +143,7 @@ u{
     border-style: solid;
     border-color: rgb(216, 216, 216);
     border-width: 1px;
+    border-radius: 10px;
     margin-top: 8%;
     margin-right: 9%;
     margin-left: -12%;
@@ -149,13 +151,21 @@ u{
 
 .upcomingEvents u{
     border-bottom: 4px solid #C1DBFE;
+    margin-bottom: 3%;
+}
 
+.upcomingEvents h3{
+    padding-left:3%;
+    padding-right:3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .upcomingCard{
     border-top-style: solid;
     border-top-color: lightgrey;
     border-top-width: 1px;
+    /* border-radius: 10px; */
 }
 
 .upcomingCard h6{
@@ -181,6 +191,8 @@ u{
     flex-direction: row;
     padding-left: 2%;
 }
+
+
 
 #firstUpcoming{
     padding-top: 1%;
