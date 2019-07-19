@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Calendar, momentLocalizer,} from 'react-big-calendar';
 import moment from 'moment';
+import Toolbar from 'react-big-calendar/lib/Toolbar';
 
 
 
@@ -23,20 +24,26 @@ class Eventcalendar extends Component {
     }
 }
 
-class CustomToolbar extends Component{
+class CustomToolbar extends Toolbar{
+ 
+  componentDidMount() {
+		const view = this.props.view;
+		console.log(view)
+	}
     render() {
       return (
         <div className='rbc-toolbar'>
-          <span className="rbc-btn-group">
+          <div className="rbc-btn-group">
             <button type="button" onClick={() => this.navigate('PREV')}>back</button>
             <button type="button" onClick={() => this.navigate('NEXT')}>next</button>
-          </span>
-          <span className="rbc-toolbar-label">{this.props.label}</span>
-          <span className="rbc-btn-group">
-            <button type="button" onClick={() => this.navigate('TODAY')} >today</button>
-          </span>
-            
+				  </div>
+				  <div className="rbc-toolbar-label">{this.props.label}</div>
+				
+          <div className="rbc-btn-group">
+          <button type="button" onClick={() => this.navigate('TODAY')}>today</button>
+          </div>
         </div>
+       
       );
     }
 }

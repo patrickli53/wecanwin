@@ -9,13 +9,12 @@ class Eventcard extends React.Component{
     super();
   }
 
-  render(){
-   
+  render(){ 
     return (
      
       <div className='pa2 eventCard'>
         <Card>
-          <CardImg top width='100%' src={this.props.image} alt="event image" />
+          {/* <CardImg top width='100%' src={require( `${ this.props.image }` )} alt="event image" /> */}
           <CardBody>
             <CardTitle className='f3'>{this.props.title}</CardTitle>
             <CardSubtitle>

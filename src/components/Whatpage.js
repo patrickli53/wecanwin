@@ -17,7 +17,7 @@ const Whatpage = () => {
                         className="icon bw2 br-100 ba b--light-blue h4 w4 grow shadow bg-white" alt="create" />
                     <div className='textContainer'>
                         <h4 className='title pl3'> <u>WE CREATE</u>  </h4>
-                        <p className='desc pl3 pr7 mr7 pt3 '>
+                        <p className='desc pl3 pr7 pt3 '>
                             <ul>
                                 <li> Opportunities for youth, newcomers, women, seniors, and minority groups</li>
                                 <li>Identify the potential of individuals who are seriously commited to serve their community and their individual growth</li>
@@ -52,7 +52,7 @@ const Whatpage = () => {
                         className="icon bw2 br-100 ba b--light-blue h4 w4 dib grow shadow bg-white" alt="create" />    
                     <div className='textContainer'>
                         <h4 className='title pl3'> <u>WE SUPPORT</u>  </h4>
-                            <p className='desc pl3 pr7 mr7 pt3 '>
+                            <p className='desc pl3 pr7 pt3 '>
                                 <ul>
                                     <li> Students to choose the careers of their choice and match them with colleges and universities</li>
                                     <li> Individuals that follow a path that matches their passion, skills, knowledge and goals</li>

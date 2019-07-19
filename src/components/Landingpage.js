@@ -4,9 +4,9 @@ class Landingpage extends Component{
     
     render(){
         return(
-            <div className='landingpage tc pa7 bg red'>
-                <h1 className='mt6'> Empowering Seniors, Empowering Youth</h1>
-                <h3> We Can All Win</h3>
+            <div className='landingpage tc pa7 bg'>
+                <h1 className='title'> Empowering Seniors, Empowering Youth</h1>
+                <h3 className='subtitle'> We Can All Win</h3>
             </div>
 
         )

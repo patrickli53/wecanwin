@@ -1,17 +1,19 @@
-
-
 u{
     text-decoration: none;
     border-bottom: 10px solid #C1DBFE;
 
 }
 
-.landingpage {
-    height: 100vh;
-  
+.landingpage .title, .landingpage .subtitle {
+    padding-top: 12.5%;
+    background-color: black;
+    color: #fff; 
+    padding: 0.2rem;
     
-
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
 }
+
 .bg {
     background-image: url("./img/landingimg.jpg");
     height: 100vh;

@@ -10,12 +10,6 @@ const Getinvolved = () => {
                 <u>Get Involved!</u>
             </h1>
 
-            <h2> Join </h2>
-            <p> Become a member of We Can Win! As a member, you will receive news about what is happening and be engaged in the community. </p>
-            <p>If you would like to join, fill out the information below!</p>
-
-            <Button href='/' outline color="primary" size='sm'>Join</Button>{' '}
-
             <h2> Volunteer </h2>
             <p> Thank you for your interest in volunteering with We Can Win. We appreciate and thank all volunteers who bring their perceptions and experiences to help our organization provide exceptional services. 
                 We have a wide range of volunteer opportunities available to match your skills and interest. Volunteer positions are based on availability and are placed according to the interests, skills and agency needs.

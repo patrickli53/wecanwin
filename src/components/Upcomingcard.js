@@ -8,8 +8,8 @@ const Upcomingcard = ({title,start,end,info}) =>{
                 <h4>
                     <Moment
                     date={start}
-                    parse="YYYY-MM-dd hh:mm"
-                    format="DD"
+                    parse="YYYY-MM-DD hh:mm"
+                    format="Do"
                     />
                 </h4>
                 <h5>{title}</h5>
@@ -18,7 +18,7 @@ const Upcomingcard = ({title,start,end,info}) =>{
                 <h6>
                     <Moment
                         date={start}
-                        parse="YYYY-MM-dd hh:mm"
+                        parse="YYYY-MM-DD hh:mm"
                         format="MMM"
                     /> 
                 </h6>
@@ -26,12 +26,12 @@ const Upcomingcard = ({title,start,end,info}) =>{
                 <h7>
                     <Moment
                         date={start}
-                        parse="YYYY-MM-dd hh:mm"
+                        parse="YYYY-MM-DD hh:mm"
                         format="h:mma"
                     /> -
                      <Moment
                         date={end}
-                        parse="YYYY-MM-dd hh:mm"
+                        parse="YYYY-MM-DD hh:mm"
                         format="h:mma"
                     /> 
                 </h7>
