@@ -20,7 +20,7 @@ class Eventcard extends React.Component{
             <CardSubtitle>
               <Moment
                 date={this.props.start}
-                parse="YYYY-MM-dd hh:mm"
+                parse="YYYY-MM-DD hh:mm"
                 format="MMM DD, YYYY h:mma"
               />
             </CardSubtitle>

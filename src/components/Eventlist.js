@@ -1,30 +1,25 @@
 export const Eventlist = [
     {
-        title: 'raptors game',
-        "start": "2019-07-16 12:00",
-        "end": "2019-07-16 12:30",
+        title: 'New Horizons for Seniors',
+        "start": "2019-07-24 10:00",
+        "end": "2019-07-24 13:00",
         image: "'../img/flyer.png'",
-        info:'Air Canada Centre good basketball game'
-    },   
+        info:'3370 Kingston Road, First Floor Community Room'
+    },  
     {
-        title: 'raptors game',
-        "start": "2019-07-15 12:00",
-        "end": "2019-07-15 12:30",
-        image: 'https://www.bankofcanada.ca/wp-content/uploads/2017/02/c150-carousel-image-500x250.jpg',
-        info:'Air Canada Centre good basketball game'
-    },
+        title: 'New Horizons for Seniors',
+        "start": "2019-07-31 10:00",
+        "end": "2019-07-31 13:00",
+        image: "'../img/flyer.png'",
+        info:'3370 Kingston Road, First Floor Community Room'
+    },  
     {
-        title: 'raptors game',
-        "start": "2019-07-17 12:00",
-        "end": "2019-07-17 12:30",
-        image: 'https://www.bankofcanada.ca/wp-content/uploads/2017/02/c150-carousel-image-500x250.jpg',
-        info:'Air Canada Centre good basketball game'
-    },
-    {
-        title: 'raptors game',
-        "start": "2019-07-17 12:00",
-        "end": "2019-07-17 12:30",
-        image: 'https://www.bankofcanada.ca/wp-content/uploads/2017/02/c150-carousel-image-500x250.jpg',
-        info:'Air Canada Centre good basketball game'
-    }
+        title: 'New Horizons for Seniors',
+        "start": "2019-08-07 10:00",
+        "end": "2019-08-07 13:00",
+        image: "'../img/flyer.png'",
+        info:'3370 Kingston Road, First Floor Community Room'
+    },  
+    
+  
 ]

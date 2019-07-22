@@ -22,22 +22,67 @@ u{
     background-size: cover;
 }
 
-.whatpage {
-   
+.learnButton{
+    padding-top: 2%;
+    padding-left: 9.3%;
+    padding-bottom: 3%;
+}
+
+.wholandtext {
+    padding-left: 9.3%;
+    padding-top: 3%;
+}
+
+.whatpage h1{
+    padding-left: 9.3%;  
 
 }
 
 .whatContainer{
     display:flex;
     flex-direction: row;
+    padding-left: 9.3%;
 }
 
+.visionContainer{
+    padding-left: 1%;
+}
+
+.visionTexts{
+    padding-left:5%;
+    padding-right: 0%;
+}
+
+.valueContainer h3{
+    padding-left: 20% !important;
+    margin: 0%;
+    padding-right: 0%;
+}
+
+.valueTexts{
+    padding-left: 9%;
+    padding-right: 0%;
+    
+}
 
 .assistContainer{
     display:flex;
     flex-direction: row-reverse;
 }
+.team h1{
+    padding-left: 9.3%;
+}
 
+.teamContainer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 9.3%;
+    padding-top: 20px;
+}
+
+.teamCard{
+    margin-right: 4%;
+}
 
 .icon {
     width: 9.3%;
@@ -48,14 +93,16 @@ u{
     background: #457fca;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 9.3%;
+    padding-right: 8%;
 }
 
 .eventCard{
     text-align: center;
 }
 
-.wholand {
-    height: 50vh;
+.wholand h1{
+    padding-left: 9.3%;
    
 }
 
@@ -68,22 +115,22 @@ u{
 }
 
 .getinvolved h1{
-    padding-left: 13%;
+    padding-left: 9.3%;
 }
 
 .getinvolved h2{
     color: red;
-    padding-left: 13%;
+    padding-left: 9.3%;
     padding-top: 25px;
 }
 
 .getinvolved p{
-    padding-left:13%;
-    padding-right: 13%;
+    padding-left:9.3%;
+    padding-right: 9.3%;
 }
 
 .getinvolved .btn{
-    margin-left:13%;
+    margin-left:9.3%;
 }
 
 .footer {
@@ -91,10 +138,35 @@ u{
     
 } 
 
-.about {
-    height: 100vh;
-   
+.iconCredit{
+    font-size: 5px;
+}
+.aboutText {
+   padding-left: 9.3%;
+   padding-top: 30px;
+   padding-right: 10%;
 } 
+
+.about h1{
+    padding-left: 9.3%;
+}
+
+.about h2{
+    color: red;
+    padding-left: 9.3%;
+}
+
+.about h3{
+    color: #4388FE;
+    padding-left: 5%;
+}
+
+.missionTexts{
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+
 
 .supporters {
    

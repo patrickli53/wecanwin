@@ -6,7 +6,7 @@ const Butt = ({message,address}) => {
     return(
         <Button color='primary'>
             <Redir to={address}>
-                    <h6 className='butt'>{message}</h6>
+                    <h6 className='butt pt1'>{message}</h6>
             </Redir>
         </Button>
     )
