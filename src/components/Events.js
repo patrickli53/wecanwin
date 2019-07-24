@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navigation from './Navigation';
 import Eventcalendar from './Eventcalendar';
 import { Eventlist } from './Eventlist';
+import Footer from './Footer';
 
 import './Events.css';
 import styled, { keyframes } from 'styled-components';
@@ -56,6 +57,7 @@ class Events extends Component{
                             </Col>
                         </Row>
                     </Container>
+                    <Footer />
                 </FadeDiv>
             </div>
         )

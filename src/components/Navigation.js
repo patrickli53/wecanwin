@@ -64,18 +64,13 @@ class Navigation extends Component {
               </DropdownToggle>
               <DropdownMenu className='navmenu' >
                 <DropdownItem >
-                  <Redir to='/services' id='serviceItem'>
-                  Services
-                  </Redir>
-                </DropdownItem>
-                <DropdownItem >
                   <Redir to='/events' id='eventItem'>
                     Events
                   </Redir>
                 </DropdownItem>
                 <DropdownItem>
                   <Redir to='/lessons'  id='lessonItem'>
-                    Lessons
+                    Programs
                   </Redir>
                 </DropdownItem>
               </DropdownMenu>

@@ -7,12 +7,12 @@ const Supporters = () => {
     return(
         <div className='supporters' id='supporters'>
             <ScrollAnimation animateIn='fadeInRight'>
-                <h1 className=' f1 ttu pl6 pt3'>
+                <h1 className=' f1 ttu pt3'>
                     <u>Our Supporters</u>
                 </h1>
          
            
-            <div className='pl6 pt4 pb4'>
+            <div className=' pt4 pb4'>
                 <Cardlist Supportlist={Supportlist} />
             </div>
             

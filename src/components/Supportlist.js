@@ -1,22 +1,12 @@
 export const Supportlist =[
     {
-        name:'Raptors',
-        info:'helped us a lot',
-        logo:'https://cdn.worldvectorlogo.com/logos/toronto-raptors-3.svg'
+        name:'VPI Working Solutions',
+        info:'',
+        logo:'data:image/png;base64,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'
     },
     {
-        name:'York Region Transit',
-        info:'helped us a lot as well',
-        logo:'https://upload.wikimedia.org/wikipedia/commons/8/87/York_Region_Transit_logo.svg'
-    },
-    {
-        name:'Chanel',
-        info:'helped us a lot as well',
-        logo:'https://cdn-images-1.medium.com/max/1600/1*nZgHhWUTYKXNVym_TKikgA.png'
-    },
-    {
-        name:'Mozilla Firefox',
-        info:'helped us a lot as well',
-        logo:'https://techcrunch.com/wp-content/uploads/2018/07/logo-2.png?w=300'
+        name:'CASSA',
+        info:'Collaborator',
+        logo:'http://cassa.on.ca/wp-content/uploads/2016/11/391999_525904334100582_2048027573_n.jpg'
     }
 ]

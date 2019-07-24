@@ -1,17 +1,38 @@
+/* Applies to all pages */
+
 u{
     text-decoration: none;
     border-bottom: 10px solid #C1DBFE;
 
 }
 
-.landingpage .title, .landingpage .subtitle {
-    padding-top: 12.5%;
-    background-color: black;
+/*Landing page */
+
+.landingpage span{
+    background: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 300px;
+}
+
+.landingpage .title, .subtitle{
+    font-family: 'Miller Display Semibold';
     color: #fff; 
-    padding: 0.2rem;
-    
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
+    font-size: 50px;
+    font-weight: 570;
+    text-shadow: 2px 2px 100px #555555;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.landingpage .title{
+    padding-top: 10.65rem;
+}
+
+.subtitle{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
 .bg {
@@ -22,16 +43,7 @@ u{
     background-size: cover;
 }
 
-.learnButton{
-    padding-top: 2%;
-    padding-left: 9.3%;
-    padding-bottom: 3%;
-}
-
-.wholandtext {
-    padding-left: 9.3%;
-    padding-top: 3%;
-}
+/* What We Do */
 
 .whatpage h1{
     padding-left: 9.3%;  
@@ -53,14 +65,14 @@ u{
     padding-right: 0%;
 }
 
-.valueContainer h3{
-    padding-left: 20% !important;
-    margin: 0%;
-    padding-right: 0%;
+.valueTitle{
+    height: auto;
+    position: relative;
+    width: 50rem;
 }
 
 .valueTexts{
-    padding-left: 9%;
+    padding-left: 3%;
     padding-right: 0%;
     
 }
@@ -69,25 +81,13 @@ u{
     display:flex;
     flex-direction: row-reverse;
 }
-.team h1{
-    padding-left: 9.3%;
-}
-
-.teamContainer{
-    display: flex;
-    flex-direction: row;
-    padding-left: 9.3%;
-    padding-top: 20px;
-}
-
-.teamCard{
-    margin-right: 4%;
-}
 
 .icon {
     width: 9.3%;
     height: 9.3%;
 }
+
+/* Upcoming Events */
 
 .eventslanding {
     background: #457fca;  /* fallback for old browsers */
@@ -99,27 +99,70 @@ u{
 
 .eventCard{
     text-align: center;
+    
 }
+
+.eventPadding{
+    padding-bottom: 11%;
+}
+
+.eventdeck {
+    background-color: aliceblue;
+}
+
+/* Who We Are Landing */
 
 .wholand h1{
     padding-left: 9.3%;
    
 }
 
+.wholandtext {
+    padding-left: 9.3%;
+    padding-top: 3%;
+}
+
+.learnButton{
+    padding-top: 2%;
+    padding-left: 9.3%;
+    padding-bottom: 3%;
+}
+
+/* Email List */
+
 .emaillist {
-    height: 20vh;
     background: #457fca;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    
 }
 
+
+.emaillist h1{
+    padding-left: 9.3%;
+    color: #FFFFFF;
+}
+.emaillist .btn{
+    
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+.emaillist .form-control{
+    margin-top:3%;
+    margin-left: 9.3%;
+    width: 30%;
+    float: left;
+}
+
+/* Get Involved */
+
 .getinvolved h1{
     padding-left: 9.3%;
+    padding-top: 1%;
 }
 
 .getinvolved h2{
-    color: red;
+    color: #EB6969;
     padding-left: 9.3%;
     padding-top: 25px;
 }
@@ -133,6 +176,8 @@ u{
     margin-left:9.3%;
 }
 
+/* Footer */
+
 .footer {
     height: 20vh;
     
@@ -141,61 +186,12 @@ u{
 .iconCredit{
     font-size: 5px;
 }
-.aboutText {
-   padding-left: 9.3%;
-   padding-top: 30px;
-   padding-right: 10%;
-} 
 
-.about h1{
-    padding-left: 9.3%;
-}
-
-.about h2{
-    color: red;
-    padding-left: 9.3%;
-}
-
-.about h3{
-    color: #4388FE;
-    padding-left: 5%;
-}
-
-.missionTexts{
-    padding-left: 5%;
-    padding-right: 10%;
-}
-
-
-
-.supporters {
-   
-}
-
-.team {
-    height: 100vh;
-   
-} 
-
-.services{
-    height: 100vh;
-   
-}
-
-.lessons{
-    height: 100vh;
-   
-}
-
-.events{
-    height: 100vh;
-   
-
-}
+/* Events Page */
 
 .eventPageTitle{
-    padding-top: 8%;
-    padding-left: 6%
+    padding-top: 100px;
+    padding-left: 5%
 }
 
 .eventCalendar{
@@ -203,14 +199,6 @@ u{
     width:90%;
     padding-top: 4%;
     padding-left: 9%;
-}
-
-.eventPadding{
-    padding-bottom: 11%;
-}
-
-.eventdeck {
-    background-color: aliceblue;
 }
 
 .upcomingEvents{
@@ -239,7 +227,6 @@ u{
     border-top-style: solid;
     border-top-color: lightgrey;
     border-top-width: 1px;
-    /* border-radius: 10px; */
 }
 
 .upcomingCard h6{
@@ -272,9 +259,137 @@ u{
     padding-top: 1%;
 }
 
-.contact {
+
+
+
+
+
+
+.teamTitle{
+    padding-left: 9.3%;
+}
+
+.teamContainer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 9.3%;
+    padding-top: 20px;
+    
+}
+
+.teamCard{
+    margin-right: 2%;
+    flex-grow: 1;
+    background-color: #EFF2F4;
+}
+
+
+
+.team h2{
+    color: #0253b3;
+    
+}
+
+
+
+
+
+
+
+
+.aboutText {
+   padding-left: 9.3%;
+   padding-top: 30px;
+   padding-right: 10%;
+} 
+
+.about h1{
+    padding-left: 9.3%;
+    padding-top: 100px;
+}
+
+.about h2{
+    color: #EB6969;
+    padding-left: 9.3%;
+}
+
+.about h3{
+    color: #4388FE;
+    padding-left: 5%;
+}
+
+.missionTexts{
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+
+
+.supporters {
+   padding-left: 9.3%;
+}
+
+.team {
+  
+   
+} 
+
+.services{
     height: 100vh;
    
+}
+
+#firstPara{
+    padding-top: 30px;
+}
+
+.lessonsContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.lessonsContainer img{
+    padding-right: 10%;
+    padding-top: 30px;
+    height: 37em;
+}
+.lessons h2{
+    color: #EB6969;
+    padding-left: 9.3%;
+    padding-top: 20px;
+}
+
+.lessons p{
+    padding-left:9.3%;
+    padding-right: 5%;
+    padding-top: 20px;
+}
+
+#youthLessons{
+    padding-right: 35%;
+}
+
+
+
+.lessons h1{
+    padding-left: 9.3%;
+    padding-top: 100px;
+}
+
+
+
+.contactTitle {
+    padding-left: 9.3%;
+    padding-top: 100px;
+   
+}
+
+.contact h2{
+    color: #EB6969;
+    padding-left: 9.3%;
+    padding-right: 15%;
+    padding-top: 25px;
+    font-size: 1.7rem;
 }
 
 .butt{
@@ -300,5 +415,19 @@ u{
 @media only screen and (max-width: 1086px){
     .rbc-toolbar button{
         padding: 0.2rem 0.5rem !important; 
+    }
+}
+
+@media only screen and (max-width: 1090px){
+    .lessonsContainer{
+        flex-direction: column;
+    }
+    .lessonsContainer img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 50%;
     }
 }

@@ -12,7 +12,7 @@ const About = () => {
     return(
         <div className='about' id='about'>
                 <FadeDiv>
-                    <h1 className=' f1 ttu pt6'>
+                    <h1 className='f1 ttu'>
                         <u>About Us</u>
                     </h1>
 
@@ -62,9 +62,12 @@ const About = () => {
                 <div className="whatContainer pt3">
                     <img
                         src={require('../img/product.svg')}
-                         alt="create" />
+                        alt="create" 
+                        width={100}
+                        height={105}
+                         />
                     <div className='valueContainer'>
-                        <h3>
+                        <h3 className='valueTitle'>
                             Our Values
                         </h3>
                         <p className='valueTexts'>

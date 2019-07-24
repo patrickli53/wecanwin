@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation';
+import Footer from './Footer';
+
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight } from 'react-animations';
 
@@ -15,9 +17,15 @@ class Contact extends Component{
             <div className='contact'>
                 <Navigation />
                 <FadeDiv>
-                    <h1 className=' f1 ttu pl6 pt5'>
+                    <h1 className='contactTitle f1 ttu'>
                         <u>Contact Us</u>
                     </h1>
+
+                    <h2>  
+                        Let us know if you have a question, 
+                        an idea, or you just want to tell us how good of a job we're doing!
+                    </h2>
+                    <Footer />
                 </FadeDiv>
             </div>
         )

@@ -6,7 +6,7 @@ const Getinvolved = () => {
     return(
         <div className='getinvolved'>
         <ScrollAnimation animateIn='fadeInRight'>
-            <h1 className=' f1 ttu '>
+            <h1 className='f1 ttu '>
                 <u>Get Involved!</u>
             </h1>
 
