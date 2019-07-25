@@ -103,7 +103,7 @@ u{
 }
 
 .eventPadding{
-    padding-bottom: 11%;
+    padding-bottom: 5%;
 }
 
 .eventdeck {
@@ -253,16 +253,37 @@ u{
     padding-left: 2%;
 }
 
-
-
 #firstUpcoming{
     padding-top: 1%;
 }
 
+.highlights u{
+    border-bottom: 4px solid #C1DBFE;
+    margin-bottom: 3%;
+}
 
+.highlights h3{
+    padding-left: 7.5%;
+    padding-top: 40px;
+    padding-bottom: 3%;
+}
 
+.highlightTabs{
+    padding-left: 7.5%;
+    padding-right: 9%;
+}
 
+.highlights h4{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
 
+.highlights .col-6{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    padding-top: 3%;
+
+}
 
 
 .teamTitle{
@@ -376,7 +397,7 @@ u{
     padding-top: 100px;
 }
 
-
+/* Contact Page */
 
 .contactTitle {
     padding-left: 9.3%;
@@ -391,6 +412,8 @@ u{
     padding-top: 25px;
     font-size: 1.7rem;
 }
+
+
 
 .butt{
     transition: background-color .15s linear;

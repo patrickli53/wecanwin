@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
 
+import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight } from 'react-animations';
 
@@ -25,6 +27,40 @@ class Contact extends Component{
                         Let us know if you have a question, 
                         an idea, or you just want to tell us how good of a job we're doing!
                     </h2>
+
+                    <Container className='contactFormContainer'>
+                        <Form>
+                            <Row>
+                                <Col>
+                                    <FormGroup>
+                                        <Label for="name">Name</Label>
+                                        <Input type="text" placeholder="Enter name"></Input>
+                                    </FormGroup>
+                                </Col>
+                                <Col>
+                                    <FormGroup>
+                                        <Label for="email"> Email</Label>
+                                        <Input type='email' placeholder="Enter email"/>
+                                    </FormGroup>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <FormGroup>
+                                        <Label for="message">Message</Label>
+                                        <Input type="textarea" placeholder="Enter message" className='submitFormButton'/>
+                                    </FormGroup>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col xs='2'>
+                                    <FormGroup>
+                                        <Input type="submit" />
+                                    </FormGroup>
+                                </Col>
+                            </Row>
+                        </Form>
+                    </Container>
                     <Footer />
                 </FadeDiv>
             </div>

@@ -4,7 +4,7 @@ import Eventcalendar from './Eventcalendar';
 import { Eventlist } from './Eventlist';
 import Footer from './Footer';
 
-import './Events.css';
+import Highlights from './Highlights';
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight } from 'react-animations';
 import { Col, Container, Row } from 'reactstrap';
@@ -54,6 +54,11 @@ class Events extends Component{
 
                             <Col md='12' lg='4' style={{ paddingLeft: 0, paddingRight: 0}}>
                                 <Upcomingeventslist eventsList={this.state.eventsList}/>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col xs='12'>
+                                <Highlights />
                             </Col>
                         </Row>
                     </Container>
