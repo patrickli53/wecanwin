@@ -302,13 +302,15 @@ u{
     margin-right: 2%;
     flex-grow: 1;
     background-color: #EFF2F4;
+    max-width: 24rem;
 }
-
-
 
 .team h2{
     color: #0253b3;
     
+}
+.team p{
+    font-size: 0.9rem;
 }
 
 

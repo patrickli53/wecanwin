@@ -10,22 +10,23 @@ class Emaillist extends Component{
             email: ''
         }
 
-        this.handleChange = this.handleChange.bind(this)
-        this.handleSubmit = this.handleSubmit.bind(this)
+        // this.handleChange = this.handleChange.bind(this)
+        // this.handleSubmit = this.handleSubmit.bind(this)
     }
 
-    handleChange = e => {
-        this.setState({[ e.target.email] : e.target.value })
-    }
+    // handleChange = e => {
+    //     this.setState({[ e.target.email] : e.target.value })
+    // }
 
-    async handleSubmit(e){
-        e.preventDefault()
+    // async handleSubmit(e){
+    //     e.preventDefault()
 
-        const { email } = this.state
-        const form = await axios.post('/api/form',{
-            email
-        })
-    }
+    //     const { email } = this.state
+    //     const form = await axios.post('/api/form',{
+    //         email
+    //     })
+    // }
+
     render(){
         return(
             <div className='emaillist'>
@@ -34,20 +35,18 @@ class Emaillist extends Component{
                         <u>Join Our Email List!</u>
                     </h1>
     
-                    {/* <p> Hi, Consider joining us for weekly updates on the envets going on!</p> */}
+                    {/* <p> Hi, Consider joining us for weekly updates on our events!</p> */}
                     <div className='emailForm'>
-                        <Form onSubmit={this.handleSubmit}>
-                            <FormGroup>
-                                <Input 
+                        <form method="POST" action="https://formspree.io/info@wecanwin.ca" onSubmit={this.handleSubmit}>
+                            
+                                <input 
                                 type='email' 
                                 name='email' 
                                 placeholder='Enter Email'
                                 // onChange={this.handleChange}
                                 />
-                            </FormGroup>
-                            
-                            <Button>Submit</Button>
-                        </Form>
+                                <input type="submit" value="Send"/>
+                        </form>
                     </div>
                     
                 </ScrollAnimation>
