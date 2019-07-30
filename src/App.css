@@ -142,17 +142,42 @@ u{
     padding-left: 9.3%;
     color: #FFFFFF;
 }
-.emaillist .btn{
+
+.emailForm{
+    padding-left: 9.3%;
+    padding-top: 40px;
+    padding-bottom: 20px;
     
-    margin-bottom: 2%;
-    margin-top: 3%;
 }
-.emaillist .form-control{
-    margin-top:3%;
-    margin-left: 9.3%;
-    width: 30%;
-    float: left;
+
+.emailInput{
+    border-radius: 5px;
 }
+
+
+.form-submit-button {
+
+    background: #016ABC;
+    
+    color: #fff;
+    
+    border: 1px solid #016ABC;
+    
+    border-radius: 5px;
+}
+    
+.form-submit-button:hover {
+    
+    background: rgb(69, 171, 255);
+    
+    color: #fff;
+    
+    border: 1px solid rgb(69, 171, 255);
+    
+    border-radius: 5px;
+}
+    
+    
 
 /* Get Involved */
 

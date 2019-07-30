@@ -40,12 +40,13 @@ class Emaillist extends Component{
                         <form method="POST" action="https://formspree.io/info@wecanwin.ca" onSubmit={this.handleSubmit}>
                             
                                 <input 
+                                className='emailInput'
                                 type='email' 
                                 name='email' 
                                 placeholder='Enter Email'
                                 // onChange={this.handleChange}
                                 />
-                                <input type="submit" value="Send"/>
+                                <input className='form-submit-button' type="submit" value="Send"/>
                         </form>
                     </div>
                     

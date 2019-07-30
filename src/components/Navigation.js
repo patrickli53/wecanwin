@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Volunteerform from './Volunteerform';
+import Donateform from './Donateform';
+import Registerform from './Registerform';
+
 import {
   Button,
   Collapse,
@@ -116,9 +120,9 @@ class Navigation extends Component {
             </NavItem>
             <NavItem>
               <div className='navbtn'>
-                <Button href='/' outline color="primary" size='sm'>Donate</Button>{' '}
-                <Button href='/' outline color="primary" size='sm'>Volunteer</Button>{' '}
-                <Button href='/' outline color="primary" size='sm'>Register</Button>{' '}
+                <Donateform buttonLabel={'Donate'}/>
+                <Volunteerform buttonLabel={'Volunteer'}/>
+                <Registerform buttonLabel={'Register'}/>
               </div>
             </NavItem>
           </Nav>
