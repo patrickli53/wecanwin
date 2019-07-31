@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Volunteerform from './Volunteerform';
 import { Button } from 'reactstrap';
 
 const Getinvolved = () => {
@@ -25,13 +26,13 @@ const Getinvolved = () => {
             </p>
 
             <p> We invite all interested volunteers to click the button below, and fill in the application!</p>
-            <Button href='/' outline color="primary" size='sm'>Volunteer</Button>{' '}
+            <Volunteerform />
             
-            <h2> Donate </h2>
+            {/* <h2> Donate </h2>
             <p> Make a donation today! </p>
             <p>Your support makes a difference! Your donation will help all minority groups to successfully integrate into their community and meet their needs. </p>
 
-            <Button href='/' outline color="primary" size='sm'>Donate</Button>{' '}
+            <Button href='/' outline color="primary" size='sm'>Donate</Button>{' '} */}
         </ScrollAnimation>
     </div>
     )

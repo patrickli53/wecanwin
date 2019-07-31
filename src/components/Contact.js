@@ -29,37 +29,32 @@ class Contact extends Component{
                     </h2>
 
                     <Container className='contactFormContainer'>
-                        <Form>
+                    <form id="contactUs" name="contactUs" accept-charset="utf-8" action="https://formspree.io/info@wecanwin.ca" method="post">
                             <Row>
                                 <Col>
-                                    <FormGroup>
-                                        <Label for="name">Name</Label>
-                                        <Input type="text" placeholder="Enter name"></Input>
-                                    </FormGroup>
+                                    <label for="full-name" className='fullName'>Full Name</label>
+                                    <br />
+                                    <input type="text" name="name" id="full-name" placeholder="John Smith" required=""/>
                                 </Col>
                                 <Col>
-                                    <FormGroup>
-                                        <Label for="email"> Email</Label>
-                                        <Input type='email' placeholder="Enter email"/>
-                                    </FormGroup>
+                                    <label for="email-address" className='emailAddress'>Email Address</label>
+                                    <br />
+                                    <input type="email" name="email-address" id="email-address" placeholder="email@domain.tld" required=""/>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                    <FormGroup>
-                                        <Label for="message">Message</Label>
-                                        <Input type="textarea" placeholder="Enter message" className='submitFormButton'/>
-                                    </FormGroup>
+                                    <label for="message" className='mt2'>Message</label>
+                                    <textarea rows="6" name="message" id="message" placeholder="Keep up the good work! Love seeing the change in the community! How can I get involved?"
+                                    required=""/>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col xs='2'>
-                                    <FormGroup>
-                                        <Input type="submit" />
-                                    </FormGroup>
+                                <input className="sendMessage" type="submit" value="Send Message"/>
                                 </Col>
                             </Row>
-                        </Form>
+                            </form>
                     </Container>
                     <Footer />
                 </FadeDiv>

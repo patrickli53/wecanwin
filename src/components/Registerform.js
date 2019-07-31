@@ -19,34 +19,33 @@ class Registerform extends React.Component {
     }));
   }
 
+
   render() {
     return (
       <div>
         <Button color="primary" outline size={'sm'} onClick={this.toggle}>{this.props.buttonLabel}</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Registration</ModalHeader>
           <ModalBody>
-            <form method="POST" action="https://formspree.io/info@wecanwin.ca" >
-                <FormGroup>
-                    <Label for="name">Name</Label>
-                    <Input type="text" name="Name" id="Name" placeholder="John Smith" />
-                </FormGroup>
-
-                <FormGroup>
-                    <Label for="email">Email</Label>
-                    <Input type="email" name="Email" id="Email" placeholder="example@gmail.com" />
-                </FormGroup>
-                
-                <FormGroup>
-                    <Label for="phone">Phone Number (Optional)</Label>
-                    <Input type="text" name="Phone Number" id="Phone" placeholder="123-456-7890" />
-                </FormGroup>
+            <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/info@wecanwin.ca" method="post">
+                <fieldset id="fs-frm-inputs">
+                    <label for="full-name" className='fullName'>Full Name</label>
+                    <br />
+                    <input type="text" name="name" id="full-name" placeholder="John Smith" required=""/>
+                    <br />
+                    <label for="email-address" className='emailAddress'>Email Address</label>
+                    <br />
+                    <input type="email" name="email-address" id="email-address" placeholder="email@domain.tld" required=""/>
+                    <br />
+                    <label for="telephone" className='phoneNumber'>Telephone Number (Optional)</label>
+                    <br />
+                    <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"/>
+                </fieldset>
+                <br />
+                <input type="submit" value="Submit" className='submitButton'/>
+                <Button color="secondary" onClick={this.toggle}>Cancel</Button>
             </form>
           </ModalBody>
-          <ModalFooter>
-            <Button color="primary" type="submit" onClick={this.toggle}>Do Something</Button>{' '}
-            <Button color="secondary" onClick={this.toggle}>Cancel</Button>
-          </ModalFooter>
         </Modal>
       </div>
     );

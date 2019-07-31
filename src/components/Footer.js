@@ -15,8 +15,11 @@ const Footer = () => {
                     <p class="f4 fw6 mb2 f6 mt0">
                         Sign up for our newsletter.
                     </p>
-                    <input placeholder="Email Address" class="mw-100 w-20 dib w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box"/>
-                    <input type="submit" class="input-reset dib w-20 w-auto-ns bg-black-80 white f5 pv2 pv3-ns ph4 ba b--black-80 bg-hover-mid-gray"/>
+                    <form id="fs-frm" name="footer-newsletter" accept-charset="utf-8" action="https://formspree.io/info@wecanwin.ca" method="post">
+                        <input name='email-address' placeholder="Email Address" class="mw-100 w-20 dib w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box"/>
+                        <input type="submit" class="input-reset dib w-20 w-auto-ns bg-black-80 white f5 pv2 pv3-ns ph4 ba b--black-80 bg-hover-mid-gray"/>
+                    </form>
+                    
                 </span>
             </section>
             <div class="cf pl3 pt3 pr3">

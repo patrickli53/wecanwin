@@ -120,7 +120,7 @@ class Navigation extends Component {
             </NavItem>
             <NavItem>
               <div className='navbtn'>
-                <Donateform buttonLabel={'Donate'}/>
+                {/* <Donateform buttonLabel={'Donate'}/> */}
                 <Volunteerform buttonLabel={'Volunteer'}/>
                 <Registerform buttonLabel={'Register'}/>
               </div>
