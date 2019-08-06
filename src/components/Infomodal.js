@@ -1,24 +1,17 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import { Document, Page } from 'react-pdf';
-import { pdfjs } from 'react-pdf';
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-class Flyermodal extends React.Component {
+
+class Infomodal extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      modal: false,
-      numPages: null,
-      pageNumber: 1,
+      modal: false
     };
 
     this.toggle = this.toggle.bind(this);
     
   }
  
-  onDocumentLoadSuccess = ({ numPages }) => {
-    this.setState({ numPages });
-  }
   
   toggle() {
     this.setState(prevState => ({
@@ -27,19 +20,13 @@ class Flyermodal extends React.Component {
   }
 
   render() {
-    const { pageNumber, numPages } = this.state;
     return (
       <div>
         <Button className='mt2 mb5' color="primary" onClick={this.toggle}>{this.props.buttonLabel}</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Flyer</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Infographic</ModalHeader>
           <ModalBody>
-            <Document file={require("../img/July2019Issue.pdf")}
-            onLoadSuccess={this.onDocumentLoadSuccess}
-            > 
-              <Page pageNumber={pageNumber}/>
-            </Document>
-            <p>{pageNumber} of {numPages}</p>
+            <img alt="infographic" src={require("../img/OnlineSecurityInfographic.jpg")} />
           </ModalBody>
           <ModalFooter>
             <Button color="secondary" onClick={this.toggle}>Close</Button>
@@ -50,4 +37,4 @@ class Flyermodal extends React.Component {
   }
 }
 
-export default Flyermodal;
+export default Infomodal;

@@ -110,6 +110,9 @@ u{
     background-color: aliceblue;
 }
 
+.modal-content{
+    width: 130% !important; 
+}
 /* Who We Are Landing */
 
 .wholand h1{

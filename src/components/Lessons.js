@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
+import Infomodal from './Infomodal';
 
 import styled, { keyframes } from 'styled-components';
 import { fadeInRight } from 'react-animations';
@@ -39,6 +40,12 @@ class Lessons extends Component{
                             <br />
                             <br />
                             This project prioritizes empowering seniors by fostering stronger connections with their community and reviving their great spirit which improves their quality of life. 
+                            <br />
+                            <br />
+                            Click the button below to get a glimpse of the information we provide in the program!
+                            <br />
+                            
+                            <Infomodal buttonLabel={'Online Security Infographic'} size="lg" style={{maxWidth: '1600px', width: '80%'}}/>
                         </p>
                         <img src={require('../img/flyer.png')} alt={'flyer'} />
                     </div>

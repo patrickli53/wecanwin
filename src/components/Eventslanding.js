@@ -20,7 +20,7 @@ class Eventslanding extends Component {
     
                     <div className=" pr6 pt3" >
                         <Butt message={'View Calendar!'} address={'/events'}/>
-                        <Flyermodal buttonLabel={'THIS WEEK\'S FLYER'}/>
+                        <Flyermodal buttonLabel={'THIS WEEK\'S NEWSLETTER'} size="lg" style={{maxWidth: '1600px', width: '80%'}}/>
                         
                     </div>
                     
