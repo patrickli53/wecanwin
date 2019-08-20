@@ -9,10 +9,10 @@ import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import 'animate.css/animate.min.css';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { HashRouter, Switch, Route} from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Router> 
+ReactDOM.render(<HashRouter> 
                     <Switch>
                         <Route exact path ='/' component={App}/>
                         <Route path='/events' component={Events}/>
@@ -21,7 +21,7 @@ ReactDOM.render(<Router>
                         <Route path='/contactus' component={Contact}/>
                     </Switch>
                    
-                </Router>,
+                </HashRouter>,
                 document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

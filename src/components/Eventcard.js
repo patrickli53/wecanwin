@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
 import Moment from 'react-moment';
+import Registerform from './Registerform';
 
 
 class Eventcard extends React.Component{
@@ -25,7 +26,7 @@ class Eventcard extends React.Component{
               />
             </CardSubtitle>
             <CardText>{this.props.info}</CardText>
-            <Button>Register for Free!</Button>
+            <Registerform buttonLabel={"Register for free!"} />
           </CardBody>
         </Card>
       </div>

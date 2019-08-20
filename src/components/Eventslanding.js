@@ -14,7 +14,7 @@ class Eventslanding extends Component {
                     </h1>
                     
                         
-                    <div className=" pr6 pt3" >
+                    <div className="pt3" >
                         <Eventcardlist Eventlist={ this.props.eventList }/>  
                     </div>
     

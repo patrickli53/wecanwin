@@ -36,11 +36,11 @@ class Emaillist extends Component{
                     </h1>
     
                     {/* <p> Hi, Consider joining us for weekly updates on our events!</p> */}
-                    <div className='emailForm'>
+                    <div className='emailForm control'>
                         <form method="POST" action="https://formspree.io/info@wecanwin.ca" onSubmit={this.handleSubmit}>
                             
                                 <input 
-                                className='emailInput'
+                                className='emailInput input'
                                 type='email' 
                                 name='email' 
                                 placeholder='Enter Email'

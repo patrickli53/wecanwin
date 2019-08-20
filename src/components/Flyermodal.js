@@ -34,12 +34,14 @@ class Flyermodal extends React.Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Flyer</ModalHeader>
           <ModalBody>
+          <div className='flyerSize'>
             <Document file={require("../img/July2019Issue.pdf")}
             onLoadSuccess={this.onDocumentLoadSuccess}
             > 
               <Page pageNumber={pageNumber}/>
             </Document>
             <p>{pageNumber} of {numPages}</p>
+          </div>
           </ModalBody>
           <ModalFooter>
             <Button color="secondary" onClick={this.toggle}>Close</Button>

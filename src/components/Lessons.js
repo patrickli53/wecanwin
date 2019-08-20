@@ -45,7 +45,7 @@ class Lessons extends Component{
                             Click the button below to get a glimpse of the information we provide in the program!
                             <br />
                             
-                            <Infomodal buttonLabel={'Online Security Infographic'} size="lg" style={{maxWidth: '1600px', width: '80%'}}/>
+                            <Infomodal buttonLabel={'Online Security Infographic'} size="lg" style={{maxWidth: '1600px', width: '80%'}} className='infoModal'/>
                         </p>
                         <img src={require('../img/flyer.png')} alt={'flyer'} />
                     </div>

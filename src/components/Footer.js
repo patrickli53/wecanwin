@@ -7,7 +7,7 @@ const Footer = () => {
             
             <section class="cf mt1">
                 <span class="mb4 mb0-ns dib w-50-l fr">
-                    <a class="black-70 f3 f2-ns fw6 dib tl link dim dib pv3 mt2 mb4 mb0-l" href="mailto:info@wecanwin.ca" >
+                    <a class="black-70 f3 f2-ns fw6 dib tl link dim dib pv3 mt2 mb4 mb0-l footEmail" href="mailto:info@wecanwin.ca" >
                         info@wecanwin.ca
                     </a>
                 </span>
@@ -16,8 +16,8 @@ const Footer = () => {
                         Sign up for our newsletter.
                     </p>
                     <form id="fs-frm" name="footer-newsletter" accept-charset="utf-8" action="https://formspree.io/info@wecanwin.ca" method="post">
-                        <input name='email-address' placeholder="Email Address" class="mw-100 w-20 dib w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box"/>
-                        <input type="submit" class="input-reset dib w-20 w-auto-ns bg-black-80 white f5 pv2 pv3-ns ph4 ba b--black-80 bg-hover-mid-gray"/>
+                        <input name='email-address' placeholder="Email Address" class="mw-100 w-20 dib w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box footIn"/>
+                        <input type="submit" class="input-reset dib w-20 w-auto-ns bg-black-80 white f5 pv2 pv3-ns ph4 ba b--black-80 bg-hover-mid-gray footButt"/>
                     </form>
                     
                 </span>
@@ -89,7 +89,7 @@ const Footer = () => {
             </div>
             <div class="db dn-ns">
                 <p class="f7 black-70 mt4 tc">
-                Copyright © Your Company 2038
+                Copyright © We Can Win 2019
                 </p>
             </div>
         </footer>

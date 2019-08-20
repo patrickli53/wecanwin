@@ -7,7 +7,7 @@ const Getinvolved = () => {
     return(
         <div className='getinvolved'>
         <ScrollAnimation animateIn='fadeInRight'>
-            <h1 className='f1 ttu '>
+            <h1 className='f1 ttu getInvolvedTitle'>
                 <u>Get Involved!</u>
             </h1>
 
@@ -26,7 +26,7 @@ const Getinvolved = () => {
             </p>
 
             <p> We invite all interested volunteers to click the button below, and fill in the application!</p>
-            <Volunteerform />
+            <Volunteerform buttonLabel={'Volunteer!'}/>
             
             {/* <h2> Donate </h2>
             <p> Make a donation today! </p>
