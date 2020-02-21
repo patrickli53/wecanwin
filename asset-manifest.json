@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/wecanwin/static/css/main.e52f5417.chunk.css",
+    "main.js": "/wecanwin/static/js/main.87b1842a.chunk.js",
+    "main.js.map": "/wecanwin/static/js/main.87b1842a.chunk.js.map",
+    "runtime-main.js": "/wecanwin/static/js/runtime-main.bc195d40.js",
+    "runtime-main.js.map": "/wecanwin/static/js/runtime-main.bc195d40.js.map",
+    "static/css/2.85922270.chunk.css": "/wecanwin/static/css/2.85922270.chunk.css",
+    "static/js/2.517ed664.chunk.js": "/wecanwin/static/js/2.517ed664.chunk.js",
+    "static/js/2.517ed664.chunk.js.map": "/wecanwin/static/js/2.517ed664.chunk.js.map",
+    "index.html": "/wecanwin/index.html",
+    "precache-manifest.b0dce59535a49491ad916a0f36a134da.js": "/wecanwin/precache-manifest.b0dce59535a49491ad916a0f36a134da.js",
+    "service-worker.js": "/wecanwin/service-worker.js",
+    "static/css/2.85922270.chunk.css.map": "/wecanwin/static/css/2.85922270.chunk.css.map",
+    "static/css/main.e52f5417.chunk.css.map": "/wecanwin/static/css/main.e52f5417.chunk.css.map",
+    "static/js/2.517ed664.chunk.js.LICENSE.txt": "/wecanwin/static/js/2.517ed664.chunk.js.LICENSE.txt",
+    "static/media/July2019Issue.pdf": "/wecanwin/static/media/July2019Issue.d00c52a1.pdf",
+    "static/media/OnlineSecurityInfographic.jpg": "/wecanwin/static/media/OnlineSecurityInfographic.b8d8173f.jpg",
+    "static/media/Sukanya.jpg": "/wecanwin/static/media/Sukanya.86ee9b0d.jpg",
+    "static/media/achievement.svg": "/wecanwin/static/media/achievement.8f092ba1.svg",
+    "static/media/briefcase.svg": "/wecanwin/static/media/briefcase.c421190a.svg",
+    "static/media/committee member.jpg": "/wecanwin/static/media/committee member.b113f6f8.jpg",
+    "static/media/create.svg": "/wecanwin/static/media/create.ab85af38.svg",
+    "static/media/cross.svg": "/wecanwin/static/media/cross.b519c804.svg",
+    "static/media/eye-scan.svg": "/wecanwin/static/media/eye-scan.613e54d1.svg",
+    "static/media/flyer.png": "/wecanwin/static/media/flyer.871aaf2a.png",
+    "static/media/horizon2018_1.JPG": "/wecanwin/static/media/horizon2018_1.be0b3c6f.JPG",
+    "static/media/horizon2018_3.JPG": "/wecanwin/static/media/horizon2018_3.ad9c9087.JPG",
+    "static/media/horizon2019_1.JPG": "/wecanwin/static/media/horizon2019_1.e80ff39e.JPG",
+    "static/media/App.css": "/wecanwin/static/media/landingimg.88dc74fd.jpg",
+    "static/media/logo.png": "/wecanwin/static/media/logo.3cc20974.png",
+    "static/media/product.svg": "/wecanwin/static/media/product.7cc9796a.svg",
+    "static/media/ram.jpg": "/wecanwin/static/media/ram.b55befbd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc195d40.js",
+    "static/css/2.85922270.chunk.css",
+    "static/js/2.517ed664.chunk.js",
+    "static/css/main.e52f5417.chunk.css",
+    "static/js/main.87b1842a.chunk.js"
+  ]
+}
