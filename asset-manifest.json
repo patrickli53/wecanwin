@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/wecanwin/static/css/main.4ab537e0.chunk.css",
-    "main.js": "/wecanwin/static/js/main.b320455e.chunk.js",
-    "main.js.map": "/wecanwin/static/js/main.b320455e.chunk.js.map",
+    "main.js": "/wecanwin/static/js/main.f3cbf94a.chunk.js",
+    "main.js.map": "/wecanwin/static/js/main.f3cbf94a.chunk.js.map",
     "runtime-main.js": "/wecanwin/static/js/runtime-main.bc195d40.js",
     "runtime-main.js.map": "/wecanwin/static/js/runtime-main.bc195d40.js.map",
-    "static/css/2.85922270.chunk.css": "/wecanwin/static/css/2.85922270.chunk.css",
-    "static/js/2.838551ba.chunk.js": "/wecanwin/static/js/2.838551ba.chunk.js",
-    "static/js/2.838551ba.chunk.js.map": "/wecanwin/static/js/2.838551ba.chunk.js.map",
+    "static/css/2.61b538c2.chunk.css": "/wecanwin/static/css/2.61b538c2.chunk.css",
+    "static/js/2.ec9b1925.chunk.js": "/wecanwin/static/js/2.ec9b1925.chunk.js",
+    "static/js/2.ec9b1925.chunk.js.map": "/wecanwin/static/js/2.ec9b1925.chunk.js.map",
     "index.html": "/wecanwin/index.html",
-    "precache-manifest.97de4c7ebb89534740768e971fb5ef5c.js": "/wecanwin/precache-manifest.97de4c7ebb89534740768e971fb5ef5c.js",
+    "precache-manifest.7b6f3a334eeabea14a4f9c762f8db624.js": "/wecanwin/precache-manifest.7b6f3a334eeabea14a4f9c762f8db624.js",
     "service-worker.js": "/wecanwin/service-worker.js",
-    "static/css/2.85922270.chunk.css.map": "/wecanwin/static/css/2.85922270.chunk.css.map",
+    "static/css/2.61b538c2.chunk.css.map": "/wecanwin/static/css/2.61b538c2.chunk.css.map",
     "static/css/main.4ab537e0.chunk.css.map": "/wecanwin/static/css/main.4ab537e0.chunk.css.map",
-    "static/js/2.838551ba.chunk.js.LICENSE.txt": "/wecanwin/static/js/2.838551ba.chunk.js.LICENSE.txt",
+    "static/js/2.ec9b1925.chunk.js.LICENSE.txt": "/wecanwin/static/js/2.ec9b1925.chunk.js.LICENSE.txt",
     "static/media/July2019Issue.pdf": "/wecanwin/static/media/July2019Issue.d00c52a1.pdf",
     "static/media/OnlineSecurityInfographic.jpg": "/wecanwin/static/media/OnlineSecurityInfographic.b8d8173f.jpg",
     "static/media/Sukanya.jpg": "/wecanwin/static/media/Sukanya.86ee9b0d.jpg",
@@ -40,9 +40,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bc195d40.js",
-    "static/css/2.85922270.chunk.css",
-    "static/js/2.838551ba.chunk.js",
+    "static/css/2.61b538c2.chunk.css",
+    "static/js/2.ec9b1925.chunk.js",
     "static/css/main.4ab537e0.chunk.css",
-    "static/js/main.b320455e.chunk.js"
+    "static/js/main.f3cbf94a.chunk.js"
   ]
 }
